@@ -1,0 +1,79 @@
+body
+{
+  font-family: font;
+  font-size: 18pt;
+}
+
+
+@font-face {
+    font-family: 'font'; /*a name to be used later*/
+    src: url('Font.otf'); /*URL to font*/
+}
+
+.Main
+{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 800px;
+  height: 1400px;
+
+  background-color: rgba(100, 100, 100, 1);
+}
+
+
+.Navigation
+{
+  background-color: #333;
+  height: 60px;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.Navigation ul
+{
+  width: 750px;
+
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.Navigation ul li
+{
+  float: left;
+
+  width: 150px;
+  height: 60px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Navigation ul li a
+{
+  display: block;
+
+  color: white;
+  text-decoration: none;
+
+
+  line-height: 60px;
+  text-align: center;
+}
+
+.Navigation ul li a:hover:not(.Highlight)
+{
+  background-color: #555;
+}
+
+.Highlight
+{
+  background-color: #8756B1;
+}

@@ -1,0 +1,15 @@
+body
+{
+  background-image: url('Backdrop1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 150pt;
+  color: white;
+
+  text-shadow: 0px 0px 10px black;
+}
