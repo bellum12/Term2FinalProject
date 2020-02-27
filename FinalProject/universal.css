@@ -16,10 +16,15 @@ body
   margin-left: auto;
   margin-right: auto;
 
-  width: 800px;
-  height: 1400px;
+  width: 1150px;
 
-  background-color: rgba(100, 100, 100, 1);
+  background-color: #66BF53;
+}
+
+hr
+{
+  height: 30px;
+  background-color: #F1FF09;
 }
 
 
