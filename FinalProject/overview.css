@@ -50,6 +50,12 @@ iframe
   margin-top: 20px;
 
 }
+
+.Main a:hover
+{
+  color: black;
+}
+
 .Gal
 {
   display: block;
